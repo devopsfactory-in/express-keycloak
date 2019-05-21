@@ -53,9 +53,9 @@ npm start
 The server starts on http://localhost:3000
 
 <br/>
-All loggedin users have access to  http://localhost:3000/profile
+All loggedin users have access to  http://localhost:3000/profile 
 <br/>
-Only role based authenticated user has access to  http://localhost:3000/admin
+Only role based authenticated user has access to  http://localhost:3000/admin 
 <br/>
-Only realm based authenticated user has access to  http://localhost:3000/realmadmin
+Only realm based authenticated user has access to  http://localhost:3000/realmadmin 
 
