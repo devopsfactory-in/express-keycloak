@@ -1,0 +1,19 @@
+{
+  "name": "expressdemo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "ejs": "~2.5.7",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "keycloak-connect": "^6.0.1",
+    "mongoose": "^5.5.1"
+  }
+}
