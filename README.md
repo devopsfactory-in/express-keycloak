@@ -4,7 +4,7 @@ Express integration with keycloak
 ## Prerequisites
 Before you try this demo, make sure you have configured Keycloak locally
 
-## Local Installation
+## Keycloak Local Installation
 
 If you are using Docker then it is good to use the Keycloak docker image to run the instance locally.  
 
@@ -29,4 +29,14 @@ Login to http://localhost:8080/auth/admin and click 'Add realm' link.
 Import the 'realm-export.json' file and hit 'Create' button.
 
 A new realm named 'test' is created with the basic rights,roles and custom theme.
+
+## Create dummy users to test realm 
+
+
+## Run Express Locally
+```
+npm install
+npm start
+```
+http://localhost:3000
 
