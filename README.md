@@ -32,10 +32,15 @@ A new realm named 'test' is created with the basic rights,roles and custom theme
 
 ## Create dummy users to test realm 
 Create normal user without any custom roles
+<br/>
 Create a user for role based authentication
+<br/>
      Users --> <user> -->Role Mappings --> Client Roles --> test-client --> 'admin'
+<br/>     
 Create a realm admin user
+     <br/>
      Users --> <user> --> Role Mapping --> Realm Roles --> 'admin'
+<br/>     
 More details --> https://www.keycloak.org/docs/3.3/securing_apps/topics/oidc/nodejs-adapter.html
 
      
@@ -47,7 +52,10 @@ npm start
 ```
 The server starts on http://localhost:3000
 
+<br/>
 All loggedin users have access to  http://localhost:3000/profile
+<br/>
 Only role based authenticated user has access to  http://localhost:3000/admin
+<br/>
 Only realm based authenticated user has access to  http://localhost:3000/realmadmin
 
