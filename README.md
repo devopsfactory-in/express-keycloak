@@ -31,12 +31,23 @@ Import the 'realm-export.json' file and hit 'Create' button.
 A new realm named 'test' is created with the basic rights,roles and custom theme.
 
 ## Create dummy users to test realm 
+Create normal user without any custom roles
+Create a user for role based authentication
+     Users --> <user> -->Role Mappings --> Client Roles --> test-client --> 'admin'
+Create a realm admin user
+     Users --> <user> --> Role Mapping --> Realm Roles --> 'admin'
+More details --> https://www.keycloak.org/docs/3.3/securing_apps/topics/oidc/nodejs-adapter.html
 
+     
 
 ## Run Express Locally
 ```
 npm install
 npm start
 ```
-http://localhost:3000
+The server starts on http://localhost:3000
+
+All loggedin users have access to  http://localhost:3000/profile
+Only role based authenticated user has access to  http://localhost:3000/admin
+Only realm based authenticated user has access to  http://localhost:3000/realmadmin
 
